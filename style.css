@@ -1,4 +1,8 @@
 body {
+max-width: 1100px;
+width: 100%;
+margin: 0 auto;
+
     margin: 0;
     font-family: Raleway, Arial, sans-serif;
     font-weight: 400;
@@ -19,6 +23,7 @@ body {
     margin: 0;
     padding: 0;
   }
+
 .cover {
     background-image: url(../images/cover.jpg);
     background-size: cover;
@@ -26,16 +31,30 @@ body {
     width: 100%;
     height: 100vh;
 }
+
+.header {
+  max-width: 1052px;
+  width: 100%;
+  height: 105px;
+
+padding: 0 25px;
+  display: flex;
+
+  justify-content: start;
+  align-items: center;
+}
+
 .header_logo_image {
     width: 148px;
     height: 105px;
     flex-shrink: 0;
     display: block;
-    margin: auto;
+    margin-right:197px;
+
 
 }
 .header-nav-ul {
-  padding: 43px 0 45px 0;
+  /* padding: 43px 0 45px 0; */
 
   display: flex;
   flex-direction: row;
@@ -50,11 +69,6 @@ body {
 
   list-style-position: outside;
 
-  margin-block-start: 136px;
-  margin-block-end: 0;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 0px;
 }
 .address-ul {
   list-style: none;
@@ -213,3 +227,5 @@ text-transform: uppercase;
 width: 128px;
 height: 114px;
 }
+
+
