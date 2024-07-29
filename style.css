@@ -24,7 +24,6 @@ body {
   }
   
   .header {
-    margin-bottom: 92px;
     width: 100%;
   }
   
@@ -310,7 +309,7 @@ body {
   }
   
   .about {
-    margin: 146px 24px 180px 24px;
+    margin: 146px 24px 0 24px;
     width: 1052px;
     height: 595px;
     display: grid;
@@ -436,4 +435,4 @@ body {
   .footer__social-list-item:last-of-type {
     margin-right: 0;
   }
-
+  
