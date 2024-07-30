@@ -24,12 +24,11 @@ body {
   }
   
   .header {
-    margin-bottom: 92px;
     width: 100%;
   }
   
   .header__menu {
-    margin: 92px 24px 96px 24px;
+    margin: 92px 24px 92px 24px;
     width: 1052px;
     display: flex;
     flex-direction: row;
@@ -310,7 +309,7 @@ body {
   }
   
   .about {
-    margin: 146px 24px 180px 24px;
+    margin: 146px 24px 0 24px;
     width: 1052px;
     height: 595px;
     display: grid;
@@ -357,6 +356,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    flex-direction: column;
   }
   
   .about__text p {
@@ -369,7 +369,7 @@ body {
   }
   
   .footer {
-    margin: 182px 50px 90px 50px;
+    margin: 180px 26px 90px 26px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -436,4 +436,4 @@ body {
   .footer__social-list-item:last-of-type {
     margin-right: 0;
   }
-
+  
