@@ -195,7 +195,7 @@ body {
   }
   
   .lots {
-    margin: 24px 25px 0 24px;
+    margin: 179px 24px 0 24px;
     flex-shrink: 0;
   }
   
@@ -290,7 +290,7 @@ body {
     text-underline-offset: 5px;
     text-decoration: underline;
     display: block;
-    margin-left: 40px;
+    margin-left: 64px;
     margin-top: 30px;
     color: #000;
     font-family: "Raleway", "Arial", sans-serif;
@@ -310,7 +310,6 @@ body {
     width: 1052px;
     height: 595px;
     display: grid;
-    gap: 0px 25px;
     grid-auto-flow: column;
     align-items: end;
   }
